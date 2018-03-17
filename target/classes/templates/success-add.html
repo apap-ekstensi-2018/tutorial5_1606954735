@@ -1,8 +1,9 @@
-<html>
-	<head>
-		<title>Add</title>
-	</head>
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head th:replace="fragments/fragment :: assets" />
 	<body>
+		<div th:replace="fragments/fragment :: header"></div>
 		<h2>Data berhasil ditambahkan</h2>
+		<div th:replace="fragments/fragment :: footer"></div>
 	</body>
 </html>
